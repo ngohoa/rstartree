@@ -1,0 +1,13 @@
+To compile the code:
+Type make in the rstartree/src/ directory. Run the compiled unittest file.
+
+Data and queries files: 
+The files should use the following format:
+    a. each line represents one record/query
+    b. each record consists of latitude and longitude separated
+    by a white space, note that you can modify the unittest.cc code to accept rectangular records instead of points.
+    c. each query is a rectangle with two points
+    Here is an example of a record:
+    42.3631 -71.065
+    Here is an example of a query:
+    55.9551 -159.067 56.5551 -158.467
